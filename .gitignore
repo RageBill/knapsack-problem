@@ -1,3 +1,4 @@
 /.ipynb_checkpoints/
 /knapsack-problem-venv/
+/__pycache__/
 .DS_Store
