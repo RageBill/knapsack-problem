@@ -8,3 +8,9 @@ def read_data(prefix):
         result = [int(num) for num in f.split('\n')]
         output.append(result)
     return output
+
+def split_to_num(word):
+    return [int(char) for char in word]
+
+def join_to_str(arr):
+    return ''.join(str(char) for char in arr)
